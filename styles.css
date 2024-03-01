@@ -84,6 +84,9 @@ nav {
 }
 .simplex h1 {
   font-weight: 500;
+  background-image: url(https://64.media.tumblr.com/275200ae17bc1a926bcab4219e38d673/aef79c01fa837c48-82/s500x750/2b6178789337d07034487d0c1576a982914cd8be.gifv);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .demo-btn button {
   background-color: #21a5d5;
@@ -236,20 +239,24 @@ button:hover {
     width: 100%;
     margin: auto;
     overflow-x: scroll;
-    background-color: #3691b3;
     border-radius: 10px;
+    padding-left: 0px;
   }
   .titles img {
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 0;
+    
   }
   .titles h3 {
-    width: 100%;
+    font-size: medium;
   }
   .titles {
-    width: 30%;
+    width: 40%;
+    padding-left: 10px;
+    background-color: #3691b3; 
   }
   .industry h1 {
     text-align: center;
@@ -280,7 +287,7 @@ button:hover {
     width: 100%;
     gap: 1rem;
   }
-  .pic{
+  .pic {
     width: 100%;
   }
 }
