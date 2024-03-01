@@ -1,12 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-}
+} 
 header {
   background-color: #21a5d5;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
 }
 .info {
   display: flex;
@@ -152,7 +153,10 @@ nav {
   padding: 10px;
   width: 70%;
   font-size: xx-large;
-  font-weight: 700;
+  font-weight: 500;
+  background-image: url(https://64.media.tumblr.com/275200ae17bc1a926bcab4219e38d673/aef79c01fa837c48-82/s500x750/2b6178789337d07034487d0c1576a982914cd8be.gifv);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .br {
   display: flex;
