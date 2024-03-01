@@ -233,7 +233,7 @@ button:hover {
     margin-top: 100px;
   }
   .slider {
-    width: 90%;
+    width: 100%;
     margin: auto;
     overflow-x: scroll;
     background-color: #3691b3;
